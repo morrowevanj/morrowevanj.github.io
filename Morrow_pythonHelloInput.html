@@ -4,8 +4,8 @@ operandOne = float(input_box.value)
 </py-script>
 
 <py-script>
-    result = Element("total")
-    result.write("Hello!  The input says:" + str(operandOne))
+result = Element("total")
+result.write("Hello!  The input says:" + str(operandOne))
 </py-script>
 
 <!DOCTYPE html>
@@ -21,16 +21,16 @@ operandOne = float(input_box.value)
     </head>
     <body>
         <form>
-            <label for="operandOne">X:</label><input name="operandOne" id="opoerandOne" value="10">
-
-            <lavel for="total">Result:</label><div name="total"id="total"></div>
+            <label for="operandOne">X:</label><input name="operandOne" id="operandOne" value="10">
+    
+            <label for="total">Result:</label><div name="total" id="total"></div>
         </form>
         <py-script>
         input_box = Element("operandOne")
-        operandOne = float(input_bod.value)
+        operandOne = float(input_box.value)
         result = Element("total")
         result.write("Hello! The input says:" + str(operandOne))
-
-        </py-scriput>
+    
+        </py-script>
     </body>
 </html>
